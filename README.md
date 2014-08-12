@@ -13,7 +13,7 @@ git subtree add --prefix=Requirements/CPAnimationSequence --squash https://githu
 
 - Subtree this repository somewhere in your project.
 ```
-git subtree add --prefix=Requirements/VRUIKitTools --squash https://github.com/IvanRublev/VRUIKitTools.git master
+git subtree add --prefix=Requirements/VRAnimationTools --squash https://github.com/IvanRublev/VRAnimationTools.git master
 ```
 
 - Drag & drop `VRUIKitTools.xcodeproj` in to your poject.
