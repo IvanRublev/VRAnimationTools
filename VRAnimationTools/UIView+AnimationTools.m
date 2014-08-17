@@ -64,7 +64,7 @@
     NSAssert(group1, @"group2 must be set.");
     NSArray * show;
     NSArray * hide;
-    if (*pFirstHidden) {
+    if (!*pFirstHidden) {
         show = group1;
         hide = group2;
     } else {
